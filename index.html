@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>index</title>
+		<style>
+			body{
+				width:1920px;
+				height:2080px;
+			}
+			.top{
+				width:1920px;
+				height: 190px;
+			}
+			.top_a{
+				height: 40px;
+			}
+			.top_a p{
+				width:600;
+				height: 40px;
+				font-size: 13px;
+				margin-left: 890px;
+				color:#3d3639;
+			}
+			.top_a span{
+				font-size: 15px;
+				font-weight: 700;
+			}
+			.top_a_a{
+				position: absolute;
+				top:18px;
+				left: 1510px;
+			}
+			.top_a_b{
+				position: absolute;
+				top:18px;
+				left: 1540px;
+			}
+			.top_a_c{
+				position: absolute;
+				top:10px;
+				left:1300px;
+			}
+			.top_a_d{
+				position: absolute;
+				top:10px;
+				left:1400px;
+			}
+			.top_b_a{
+				position: absolute;
+				top:37px;
+				left: 365px;
+			}
+			.top_b_b input{
+				width:540px;
+				height: 45px;
+				border:1px solid #373741;
+				margin-left: 774px;
+				color: #d6d6d6;
+				font-size: 15px;
+				float: left;
+			}
+			.top_b_b_a{
+				width: 59px;
+				height: 47px;
+				border:1px solid #373741;
+				float: left;
+			}
+			.top_b_b_a img{
+				margin-top: 5px;
+				margin-left: 10px;
+			}
+			.top_b_c{
+				position: absolute;
+				top:53px;
+				left: 1522px;
+			}
+			.top_c ul{
+				display: inline-block;
+				margin-left: 330px;
+				margin-top: 31px;
+				background-image: url(imgs/sj.png);
+				background-repeat: no-repeat;
+				background-position: 150px 10px;
+			}
+			.top_c li{
+				display: inline-block;
+				margin-right: 15px;
+				text-align: center;
+				width:100px;
+				height: 60px;
+			}
+			.top_c li:hover{
+				color:#3aa747;
+				border-bottom: 8px solid #3aa747;
+			}
+			.top_d{
+				width:1920px;
+				height: 5px;
+				position: absolute;
+				top:198px;
+				background-color: #3aa747;
+			}
+			.main{
+				width: 1920px;
+				height: 1700px;
+			}
+			.main_a{
+				width:1920px;
+				height: 60px;
+			}
+			.main_a_a{
+				width:116px;
+				margin-top: 20px;
+				margin-left: 393px;
+				float: left;
+			}
+			.main_a_a p{
+				color:#333333;
+			}
+			.main_a_a span{
+				color:#878686;
+			}
+			.main_a_b{
+				width:150px;
+				margin-left: 930px;
+				margin-top: 20px;
+				float: left;
+			}
+			.main_b{
+				width:1198px;
+				height: 138px;
+				margin-left: 365px;
+				float: left;
+			}
+			.main_b_a{
+				width: 1196px;
+				height: 44px;
+				background-color: #ffffff;
+				border:1px solid #b7b7b7;
+			}
+			.main_b_a ul{
+				margin-top: 0px;
+				margin-left: -40px;
+			}
+			.main_b_a li{
+				display: inline-block;
+				width:120px;
+				height: 44px;
+				text-align: center;
+				line-height: 44px;
+			}
+			#a{
+				background-color: #e5e5e5;
+			}
+			.main_c{
+				width: 1200px;
+				height: 600px;
+				margin-top: 60px;
+				margin-left: 380px;
+				float: left;
+			}
+			.main_c_a{
+				width:272px;
+				height: 294px;
+				border:1px solid #878787;
+				float: left;
+			}
+			.main_c_a_a{
+				width:272px;
+				height: 51px;
+				position: absolute;
+				top: 1396px;
+				background-color: #333333;
+				opacity: 0.9; 
+				float: left;
+			}
+			.main_c_a_a p{
+				text-align: center;
+				margin-top: 3px;
+				color: #ffffff;
+			}
+			.main_c_a:hover .main_c_a_b{
+				display: block;
+			}
+			.main_c_a:hover .main_c_a_a {
+				display: none;
+			}
+			.main_c_a_b{
+				width:272px;
+				height: 294px;
+				position: absolute;
+				top: 1153px;
+				background-color: #333333;
+				opacity: 0.9; 
+				float: left;
+				display: none;
+			}
+			.main_c_a_b p{
+				text-align: center;
+				margin-top: 125px;
+				color: #ffffff;
+			}
+			.main_c_a_b span{
+				position: absolute;
+				top:170px;
+				left:48px;
+			}
+			.main_c_b{
+				width:272px;
+				height: 294px;
+				border:1px solid #878787;
+				margin-left: 30px;
+				float: left;
+			}
+			.main_c_b img{
+				margin-left: 39px;
+				margin-top: 25px;
+			}
+			.main_c_b_a{
+				width:272px;
+				height: 51px;
+				position: absolute;
+				top: 1396px;
+				background-color: #333333;
+				opacity: 0.9; 
+				float: left;
+			}
+			.main_c_b_a p{
+				text-align: center;
+				margin-top: 3px;
+				color: #ffffff;
+			}
+			.main_c_b:hover .main_c_b_b{
+				display: block;
+			}
+			.main_c_b:hover .main_c_b_a {
+				display: none;
+			}
+			.main_c_b_b{
+				width:272px;
+				height: 294px;
+				position: absolute;
+				top: 1153px;
+				background-color: #333333;
+				opacity: 0.9; 
+				float: left;
+				display: none;
+			}
+			.main_c_b_b p{
+				text-align: center;
+				margin-top: 125px;
+				color: #ffffff;
+			}
+			.main_c_b_b span{
+				position: absolute;
+				top:170px;
+				left:85px;
+			}
+			.main_c_c{
+				width:272px;
+				height: 294px;
+				border:1px solid #878787;
+				margin-left: 30px;
+				float: left;
+			}
+			.main_c_c img{
+				margin-left: 39px;
+				margin-top: 60px;
+			}
+			.main_c_c_a{
+				width:272px;
+				height: 51px;
+				position: absolute;
+				top: 1396px;
+				background-color: #333333;
+				opacity: 0.9; 
+				float: left;
+			}
+			.main_c_c_a p{
+				text-align: center;
+				margin-top: 3px;
+				color: #ffffff;
+			}
+			.main_c_c:hover .main_c_c_b{
+				display: block;
+			}
+			.main_c_c:hover .main_c_c_a {
+				display: none;
+			}
+			.main_c_c_b{
+				width:272px;
+				height: 294px;
+				position: absolute;
+				top: 1153px;
+				background-color: #333333;
+				opacity: 0.9; 
+				float: left;
+				display: none;
+			}
+			.main_c_c_b p{
+				text-align: center;
+				margin-top: 125px;
+				color: #ffffff;
+			}
+			.main_c_c_b span{
+				position: absolute;
+				top:170px;
+				left:85px;
+			}
+			.main_c_d{
+				width:272px;
+				height: 294px;
+				border:1px solid #878787;
+				margin-left: 30px;
+				float: left;
+			}
+			.main_c_d img{
+				margin-left: 39px;
+				margin-top: 60px;
+			}
+			.main_c_d_a{
+				width:272px;
+				height: 51px;
+				position: absolute;
+				top: 1396px;
+				background-color: #333333;
+				opacity: 0.9; 
+				float: left;
+			}
+			.main_c_d_a p{
+				text-align: center;
+				margin-top: 3px;
+				color: #ffffff;
+			}
+			.main_c_d:hover .main_c_d_b{
+				display: block;
+			}
+			.main_c_d:hover .main_c_d_a {
+				display: none;
+			}
+			.main_c_d_b{
+				width:272px;
+				height: 294px;
+				position: absolute;
+				top: 1153px;
+				background-color: #333333;
+				opacity: 0.9; 
+				float: left;
+				display: none;
+			}
+			.main_c_d_b p{
+				text-align: center;
+				margin-top: 125px;
+				color: #ffffff;
+			}
+			.main_c_d_b span{
+				position: absolute;
+				top:170px;
+				left:85px;
+			}
+			.main_c_e{
+				width:272px;
+				height: 294px;
+				border:1px solid #878787;
+				margin-top: 30px;
+				float: left;
+			}
+			.main_c_e img{
+				margin-left: 39px;
+				margin-top: 60px;
+			}
+			.main_c_e_a{
+				width:272px;
+				height: 51px;
+				position: absolute;
+				top: 1722px;
+				background-color: #333333;
+				opacity: 0.9; 
+				float: left;
+			}
+			.main_c_e_a p{
+				text-align: center;
+				margin-top: 3px;
+				color: #ffffff;
+			}
+			.main_c_e:hover .main_c_e_b{
+				display: block;
+			}
+			.main_c_e:hover .main_c_e_a {
+				display: none;
+			}
+			.main_c_e_b{
+				width:272px;
+				height: 294px;
+				position: absolute;
+				top: 1479px;
+				background-color: #333333;
+				opacity: 0.9; 
+				float: left;
+				display: none;
+			}
+			.main_c_e_b p{
+				text-align: center;
+				margin-top: 125px;
+				color: #ffffff;
+			}
+			.main_c_e_b span{
+				position: absolute;
+				top:170px;
+				left:95px;
+			}
+			.main_c_f{
+				width:272px;
+				height: 294px;
+				border:1px solid #878787;
+				margin-top: 30px;
+				margin-left: 30px;
+				float: left;
+			}
+			.main_c_f img{
+				margin-left: 39px;
+				margin-top: 60px;
+			}
+			.main_c_f_a{
+				width:272px;
+				height: 51px;
+				position: absolute;
+				top: 1722px;
+				background-color: #333333;
+				opacity: 0.9; 
+				float: left;
+			}
+			.main_c_f_a p{
+				text-align: center;
+				margin-top: 3px;
+				color: #ffffff;
+			}
+			.main_c_f:hover .main_c_f_b{
+				display: block;
+			}
+			.main_c_f:hover .main_c_f_a {
+				display: none;
+			}
+			.main_c_f_b{
+				width:272px;
+				height: 294px;
+				position: absolute;
+				top: 1479px;
+				background-color: #333333;
+				opacity: 0.9; 
+				float: left;
+				display: none;
+			}
+			.main_c_f_b p{
+				text-align: center;
+				margin-top: 125px;
+				color: #ffffff;
+			}
+			.main_c_f_b span{
+				position: absolute;
+				top:170px;
+				left:75px;
+			}
+			.main_c_g{
+				width:272px;
+				height: 294px;
+				border:1px solid #878787;
+				margin-top: 30px;
+				margin-left: 30px;
+				float: left;
+			}
+			.main_c_g img{
+				margin-left: 39px;
+				margin-top: 60px;
+			}
+			.main_c_g_a{
+				width:272px;
+				height: 51px;
+				position: absolute;
+				top: 1722px;
+				background-color: #333333;
+				opacity: 0.9; 
+				float: left;
+			}
+			.main_c_g_a p{
+				text-align: center;
+				margin-top: 3px;
+				color: #ffffff;
+			}
+			.main_c_g:hover .main_c_g_b{
+				display: block;
+			}
+			.main_c_g:hover .main_c_g_a {
+				display: none;
+			}
+			.main_c_g_b{
+				width:272px;
+				height: 294px;
+				position: absolute;
+				top: 1479px;
+				background-color: #333333;
+				opacity: 0.9; 
+				float: left;
+				display: none;
+			}
+			.main_c_g_b p{
+				text-align: center;
+				margin-top: 125px;
+				color: #ffffff;
+			}
+			.main_c_g_b span{
+				position: absolute;
+				top:170px;
+				left:65px;
+			}
+			.main_c_h{
+				width:272px;
+				height: 294px;
+				border:1px solid #878787;
+				margin-top: 30px;
+				margin-left: 30px;
+				float: left;
+			}
+			.main_c_h img{
+				margin-left: 39px;
+				margin-top: 60px;
+			}
+			.main_c_h_a{
+				width:272px;
+				height: 51px;
+				position: absolute;
+				top: 1722px;
+				background-color: #333333;
+				opacity: 0.9; 
+				border-bottom; 
+				float: left;
+			}
+			.main_c_h_a p{
+				text-align: center;
+				margin-top: 3px;
+				color: #ffffff;
+			}
+			.main_c_h:hover .main_c_h_b{
+				display: block;
+			}
+			.main_c_h:hover .main_c_h_a{
+				display: none;
+			}
+			.main_c_h_b{
+				width:272px;
+				height: 294px;
+				position: absolute;
+				top: 1479px;
+				background-color: #333333;
+				opacity: 0.9; 
+				float: left;
+				display: none;
+			}
+			.main_c_h_b p{
+				text-align: center;
+				margin-top: 125px;
+				color: #ffffff;
+			}
+			.main_c_h_b span{
+				position: absolute;
+				top:170px;
+				left:85px;
+			}
+			.main_d_a{
+				width:78px;
+				height: 118px;
+				position: fixed;
+				top:203px;
+				right: 0px;
+				background-color: #000000;
+				background-image: url(imgs/cart1.png);
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.main_d_a_a{
+				width:68px;
+				height: 2px;
+				position: fixed;
+				top:320px;
+				right: 0px;
+				background-color: #595e5d;
+				border-left: 5px solid #020a09;
+				border-right: 5px solid #020a09;
+			}
+			.main_d_b{
+				width:78px;
+				height: 118px;
+				position: fixed;
+				top:322px;
+				right: 0px;
+				border-bottom: 2px solid #595e5d;
+				background-color: #000000;
+				background-image: url(imgs/qq.png);
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.main_d_b_a{
+				width:68px;
+				height: 2px;
+				position: fixed;
+				top:440px;
+				right: 0px;
+				background-color: #595e5d;
+				border-left: 5px solid #020a09;
+				border-right: 5px solid #020a09;
+			}
+			.main_d_c{
+				width:78px;
+				height: 118px;
+				position: fixed;
+				top:442px;
+				right: 0px;
+				border-bottom: 2px solid #595e5d;
+				background-color: #000000;
+				background-image: url(imgs/zuji.png);
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.main_d_c_a{
+				width:68px;
+				height: 2px;
+				position: fixed;
+				top:560px;
+				right: 0px;
+				background-color: #595e5d;
+				border-left: 5px solid #020a09;
+				border-right: 5px solid #020a09;
+			}
+			.main_d_d{
+				width:78px;
+				height: 118px;
+				position: fixed;
+				top:562px;
+				right: 0px;
+				border-bottom: 2px solid #595e5d;
+				background-color: #000000;
+				background-image: url(imgs/erweima.png);
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.main_d_d_a{
+				width:68px;
+				height: 2px;
+				position: fixed;
+				top:680px;
+				right: 0px;
+				background-color: #595e5d;
+				border-left: 5px solid #020a09;
+				border-right: 5px solid #020a09;
+			}
+			.main_d_e{
+				width:78px;
+				height: 118px;
+				position: fixed;
+				top:682px;
+				right: 0px;
+				border-bottom: 2px solid #595e5d;
+				background-color: #000000;
+				background-image: url(imgs/gotop.png);
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.nav{
+				width:1920px;
+				height: 200px;
+			}
+			.nav_a{
+				width:1920px;
+				height: 100px;
+				float: left;
+				background-color: #f5f5f5;
+			}
+			.nav_a_a{
+				width: 285px;
+				margin-left: 365px;
+				float: left;
+			}
+			.nav_a_a img{
+				margin-left: 35px;
+				margin-top: 29px;
+				float:left;
+			}
+			.nav_a_a p{
+				margin-top: 30px;
+				margin-left: 25px;
+				font-size: 19px;
+				float: left;
+			}
+			.nav_a_a span{
+				font-size: 13px;
+			}
+			#one{
+				width: 1px;
+				height: 47px;
+				margin-top: 28px;
+				margin-left: 284px;
+				background-color: #e1e1e1;
+			}
+			.nav_a_b{
+				width: 285px;
+				margin-left: 30px;
+				float: left;
+			}
+			.nav_a_b img{
+				margin-left: 35px;
+				margin-top: 29px;
+				float:left;
+			}
+			.nav_a_b p{
+				margin-top: 30px;
+				margin-left: 25px;
+				font-size: 19px;
+				float: left;
+			}
+			.nav_a_b span{
+				font-size: 13px;
+			}
+			.nav_a_c{
+				width: 285px;
+				margin-left: 30px;
+				float: left;
+			}
+			.nav_a_c img{
+				margin-left: 35px;
+				margin-top: 29px;
+				float:left;
+			}
+			.nav_a_c p{
+				margin-top: 30px;
+				margin-left: 25px;
+				font-size: 19px;
+				float: left;
+			}
+			.nav_a_c span{
+				font-size: 13px;
+			}
+			.nav_a_d{
+				width: 285px;
+				margin-left: 30px;
+				float: left;
+			}
+			.nav_a_d img{
+				margin-left: 35px;
+				margin-top: 29px;
+				float:left;
+			}
+			.nav_a_d p{
+				margin-top: 30px;
+				margin-left: 25px;
+				font-size: 19px;
+				float: left;
+			}
+			.nav_a_d span{
+				font-size: 13px;
+			}
+			.nav_b{
+				width:1920px;
+				height: 100px;
+			}
+			.nav_b p{
+				background-color: #323232;
+				color:#f1f1f1;
+				line-height: 50px;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="top">
+			<div class="top_a">
+				<p>嘿，欢迎来买猜商城!<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请登录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;免费注册&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>我的订单&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我的买猜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帮助中心&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+				<div class="top_a_a">
+					<img src="imgs/wb.png"/>
+				</div>
+				<div class="top_a_b">
+					<img src="imgs/wx.png"/>
+				</div>
+				<div class="top_a_c">
+					<img src="imgs/sj.png"/>
+				</div>
+				<div class="top_a_d">
+					<img src="imgs/sj.png"/>
+				</div>
+			</div>
+			<div class="top_b">
+				<div class="top_b_a">
+					<img src="imgs/logo.png"/>
+				</div>
+				<div class="top_b_b">
+					<form>
+					<input type="text" name="one" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请输入关键词" class="one">
+					<div class="top_b_b_a">
+						<img src="imgs/search.png"/>
+					</div>
+				</form>
+				</div>
+				<div class="top_b_c">
+					<img src="imgs/cart.png"/>
+				</div>
+			</div>
+			<div class="top_c">
+				<ul>
+					<li>全部商品分类</li>
+					<li>首页</li>
+					<li>名酒</li>
+					<li>茗茶</li>
+					<li>玉石</li>
+					<li>休闲食品</li>
+					<li>洗护用品</li>
+					<li>土特产</li>
+					<li>积分商城</li>
+					<li>抽奖游戏</li>
+				</ul>
+			</div>
+			<div class="top_d">
+			</div>
+		</div>
+		<div class="main">
+			<img src="imgs/banner.png"/>
+			<div class="main_a">
+				<div class="main_a_a">
+					<p>首&nbsp;页&nbsp;><span>&nbsp;玉&nbsp;石</span></p>
+				</div>
+				<div class="main_a_b">
+					<p>共200件相关商品</p>
+				</div>
+			</div>
+			<div class="main_b">
+				<div class="main_b_a">
+					<ul>
+						<li id="a">玉石</li>
+						<li>白玉</li>
+						<li>碧玉</li>
+						<li>黄玉</li>
+						<li>和田玉</li>
+						<li>翡翠</li>
+						<li>绿松玉</li>
+						<li>墨玉</li>
+					</ul>
+				</div>
+				<div class="main_b_a">
+					<ul>
+						<li id="a">其他</li>
+						<li>吊坠</li>
+						<li>扳指</li>
+						<li>手镯</li>
+					</ul>
+				</div>
+				<div class="main_b_a">
+					<ul>
+						<li id="a">地区</li>
+						<li>北京</li>
+						<li>安徽</li>
+						<li>福建</li>
+						<li>内蒙古</li>
+						<li>宁夏</li>
+						<li>黑龙江</li>
+						<li>河北</li>
+						<li>更多</li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_c">
+				<div class="main_c_a">
+					<img src="imgs/img1.png"/>
+					<div class="main_c_a_a">
+						<p>竞猜价：￥399.00<br/>翡翠龙凤吊坠千手观音吊坠</p>
+					</div>
+					<div class="main_c_a_b">
+						<p>竞猜价：￥399.00<br/><span>翡翠龙凤吊坠千手观音吊坠</span></p>
+					</div>
+				</div>
+				<div class="main_c_b">
+					<img src="imgs/img2.png"/>
+					<div class="main_c_b_a">
+						<p>竞猜价：￥1980.00<br/>翡翠龙凤吊坠</p>
+					</div>
+					<div class="main_c_b_b">
+						<p>竞猜价：￥1980.00<br/><span>翡翠龙凤吊坠</span></p>
+					</div>
+				</div>
+				<div class="main_c_c">
+					<img src="imgs/img3.png"/>
+					<div class="main_c_c_a">
+						<p>竞猜价：￥199.00<br/>翡翠花蕊吊坠</p>
+					</div>
+					<div class="main_c_c_b">
+						<p>竞猜价：￥199.00<br/><span>翡翠花蕊吊坠</span></p>
+					</div>
+				</div>
+				<div class="main_c_d">
+					<img src="imgs/img4.png"/>
+					<div class="main_c_d_a">
+						<p>竞猜价：￥199.00<br/>翡翠如意吊坠</p>
+					</div>
+					<div class="main_c_d_b">
+						<p>竞猜价：￥199.00<br/><span>翡翠如意吊坠</span></p>
+					</div>
+				</div>
+				<div class="main_c_e">
+					<img src="imgs/img5.png"/>
+					<div class="main_c_e_a">
+						<p>竞猜价：￥99.00<br/>翡翠婵吊坠</p>
+					</div>
+					<div class="main_c_e_b">
+						<p>竞猜价：￥99.00<br/><span>翡翠婵吊坠</span></p>
+					</div>
+				</div>
+				<div class="main_c_f">
+					<img src="imgs/img6.png"/>
+					<div class="main_c_f_a">
+						<p>竞猜价：￥99.00<br/>翡翠观音(浅)吊坠</p>
+					</div>
+					<div class="main_c_f_b">
+						<p>竞猜价：￥99.00<br/><span>翡翠观音(浅)吊坠</span></p>
+					</div>
+				</div>
+				<div class="main_c_g">
+					<img src="imgs/img7.png"/>
+					<div class="main_c_g_a">
+						<p>竞猜价：￥199.00<br/>翡翠平安扣(深色)吊坠</p>
+					</div>
+					<div class="main_c_g_b">
+						<p>竞猜价：￥199.00<br/><span>翡翠平安扣(深色)吊坠</span></p>
+					</div>
+				</div>
+				<div class="main_c_h">
+					<img src="imgs/img8.png"/>
+					<div class="main_c_h_a">
+						<p>竞猜价：￥199.00<br/>翡翠如意吊坠</p>
+					</div>
+					<div class="main_c_h_b">
+						<p>竞猜价：￥199.00<br/><span>翡翠如意吊坠</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="main_d">
+				<div class="main_d_a">
+				</div>
+				<div class="main_d_a_a">
+				</div>
+				<div class="main_d_b">
+				</div>
+				<div class="main_d_b_a">
+				</div>
+				<div class="main_d_c">
+				</div>
+				<div class="main_d_c_a">
+				</div>
+				<div class="main_d_d">
+				</div>
+				<div class="main_d_d_a">
+				</div>
+				<div class="main_d_e">
+				</div>
+			</div>
+		</div>
+		<div class="nav">
+			<div class="nav_a">
+				<div class="nav_a_a">
+					<img src="imgs/f1.png">
+					<p>资质认证<br/><span>服务商100%实名认证</span></p>
+					<div id="one">
+					</div>
+				</div>
+				<div class="nav_a_b">
+					<img src="imgs/f2.png">
+					<p>支付安全<br/><span>明码标价支付及信息安全</span></p>
+					<div id="one">
+					</div>
+				</div>
+				<div class="nav_a_c">
+					<img src="imgs/f3.png">
+					<p>保险赔付<br/><span>为您提供担保赔付</span></p>
+					<div id="one">
+					</div>
+				</div>
+				<div class="nav_a_d">
+					<img src="imgs/f4.png">
+					<p>售后无忧<br/><span>服务出问题经理全程跟进</span></p>
+				</div>
+			</div>
+			<div class="nav_b">
+				<p>首页&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;工商代理&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;财务代记账&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;股权交易与变更&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;企业贷款&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;办公室租赁 |&nbsp;&nbsp;&nbsp;社保公积金代理&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;法律服务<br/>© 2017-2018 买猜商城有限公司 版权所有</p>
+			</div>
+		</div>
+	</body>
+</html>
